@@ -1,0 +1,184 @@
+body {
+  background-color: #f2f2f2;
+  position: static;
+  min-width: 400px;
+}
+
+.headerBar .headerBarBack,
+.headerBar .headerBarMore,
+.albumBar .albumType {
+  cursor: pointer;
+}
+
+.introduce {
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: white;
+  padding-bottom: 33px;
+}
+
+.introduce .followers::after {
+  display: block;
+  content: "followers";
+  margin-top: 5px;
+  color: var(--textColor);
+  font-size: 8px;
+}
+
+.introduce .followings::after {
+  display: block;
+  content: "followings";
+  margin-top: 5px;
+  color: var(--textColor);
+  font-size: 8px;
+}
+
+.follow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.follow .followings,
+.follow .followers {
+  margin-top: 113px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.follow .myImage {
+  margin: 0 auto;
+  margin-top: 78px;
+}
+
+.profileInfo {
+  margin-top: 15px;
+}
+
+.profileInfo .userName {
+  font-weight: 700;
+}
+
+.profileInfo .userEmail {
+  margin-top: 5px;
+  color: var(--textColor);
+  font-size: 12px;
+}
+
+.profileInfo .introduction {
+  margin: 15px 0 24px 0px;
+  color: var(--textColor);
+  font-size: 14px;
+}
+
+.link {
+  margin-top: 32px;
+}
+
+.link .fixProfile,
+.link .addPosting {
+  padding: 8px 26px;
+  color: #767676;
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 30px;
+  font-size: 14px;
+}
+
+.link .addPosting {
+  margin-left: 12px;
+}
+
+.saleItems {
+  overflow: hidden;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.saleItems .title {
+  margin: 20px 0 15px 20px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.saleItems .productList {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  margin: 0 0 20px 20px;
+}
+
+.saleItems .productList img {
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.productList .ProductTitle {
+  margin-bottom: 4px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.productList .price {
+  font-weight: 700;
+  font-size: 12px;
+  color: var(--mainColor);
+}
+
+.albumBar {
+  width: 100%;
+  height: 48px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  background-color: white;
+  border-bottom: 1px solid var(--borderColor);
+  display: flex;
+  align-items: center;
+  position: static;
+  justify-content: flex-end;
+  gap: 18px;
+}
+
+.postingSummary {
+  background-color: white;
+}
+
+.postContent {
+  margin: 16px 16px 61px 21px;
+  padding-bottom: 31px;
+}
+
+.postContent .postingList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 390px;
+  margin: auto;
+}
+
+.postingList li {
+  text-align: center;
+  cursor: pointer;
+}
+
+/* .userInfo {
+  display: flex;
+}
+
+.profileImg {
+  float: left;
+}
+
+.infoText {
+  margin-left: 12px;
+}
+
+.userInfo .name {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.userInfo .email {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--textColor);
+} */
