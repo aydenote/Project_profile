@@ -1,5 +1,6 @@
-@import "./reset.css";
-@import "./variable.css";
+@import "/styles/reset.css";
+@import "/styles/variable.css";
+@import "/asset/font/font.css";
 
 /* Components */
 @import "/components/navBar/navBar.css";
@@ -9,6 +10,7 @@
 /* Screens */
 @import "/page/profile/myProfile.css";
 @import "/page/profile/yourProfileFollow.css";
+@import "/page/profile/profileModification.css";
 /*
 @import 'screens/logIn.css';
 @import 'screens/signUp.css';

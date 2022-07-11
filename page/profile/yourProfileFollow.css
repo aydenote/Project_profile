@@ -17,3 +17,15 @@ header .headerBar.followers {
   align-items: center;
   justify-content: flex-start;
 }
+
+body {
+  background-color: white;
+}
+
+.followBtn.profile {
+  width: 56px;
+  height: 28px;
+  border-radius: 26px;
+  font-weight: 400;
+  font-size: 12px;
+}

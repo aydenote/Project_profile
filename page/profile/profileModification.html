@@ -4,7 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/asset/images/favicon.ico" />
+    <link rel="stylesheet" href="/styles/styles.css" />
     <title>60" Market|프로필 수정</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <article class="headerBar">
+        <img class="headerBarBack" src="/asset/images/icon-arrow-left.svg" alt="뒤로가기" />
+        <button type="button" class="headerBarSettingBtn headerBarBtn">저장</button>
+      </article>
+    </header>
+
+    <div class="wrap registerWrap">
+      <main>
+        <form class="logInForm registerForm" action="" method="get">
+          <label class="registerFormLabel" for="name">사용자 이름</label>
+          <input id="name" type="text" required placeholder="2~10자 이내여야 합니다." />
+          <label class="registerFormLabel" for="id">계정 ID</label>
+          <input id="id" type="text" minlength="8" maxlength="20" required />
+          <label class="registerFormLabel" for="introduce">소개</label>
+          <input id="introduce" type="text" minlength="8" maxlength="20" required />
+        </form>
+      </main>
+    </div>
+  </body>
 </html>
