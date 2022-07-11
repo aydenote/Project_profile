@@ -1,0 +1,177 @@
+body {
+  background-color: #f2f2f2;
+  position: static;
+  min-width: 400px;
+}
+
+.headerBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerBar .headerBarBack,
+.headerBar .headerBarMore,
+.albumBar .albumType {
+  cursor: pointer;
+}
+
+.myFollow.myProfileImg .myImage{
+  width: 110px;
+  height: 110px;
+}
+
+.introduce {
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: white;
+  padding-bottom: 33px;
+}
+
+.introduce .followers::after {
+  display: block;
+  content: "followers";
+  margin-top: 5px;
+  color: var(--textColor);
+  font-size: 8px;
+}
+
+.introduce .followings::after {
+  display: block;
+  content: "followings";
+  margin-top: 5px;
+  color: var(--textColor);
+  font-size: 8px;
+}
+
+.myFollow.myProfileImg {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.myFollow.myProfileImg .followings,
+.myFollow.myProfileImg .followers {
+  margin-top: 65px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.myFollow.myProfileImg .myImage {
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.profileInfo {
+  margin-top: 15px;
+}
+
+.profileInfo .userName {
+  font-weight: 700;
+}
+
+.profileInfo .userEmail {
+  margin-top: 5px;
+  color: var(--textColor);
+  font-size: 12px;
+}
+
+.profileInfo .introduction {
+  margin: 15px 0 24px 0px;
+  color: var(--textColor);
+  font-size: 14px;
+}
+
+.profileUpdate.addProduct {
+  margin-top: 32px;
+}
+
+.profileUpdate.addProduct .fixProfile,
+.profileUpdate.addProduct .addPosting {
+  padding: 8px 26px;
+  color: #767676;
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 30px;
+  font-size: 14px;
+}
+
+.profileUpdate.addProduct .addPosting {
+  margin-left: 12px;
+}
+
+.saleItems {
+  overflow: hidden;
+  background-color: white;
+}
+
+.saleItems .title {
+  margin: 20px 0 15px 20px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.saleItems .productList {
+  display: flex;
+  gap: 10px;
+  margin: 0 0 20px 20px;
+}
+
+.saleItems .productList li{
+  cursor: pointer;
+}
+
+.saleItems .productList img {
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.productList .ProductTitle {
+  margin-bottom: 4px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.productList .price {
+  font-weight: 700;
+  font-size: 12px;
+  color: var(--mainColor);
+}
+
+.albumBar {
+  width: 100%;
+  height: 48px;
+  padding: 0 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  background-color: white;
+  border-bottom: 1px solid var(--borderColor);
+  display: flex;
+  align-items: center;
+  position: static;
+  justify-content: flex-end;
+  gap: 18px;
+}
+
+.albumBar .albumType.detail{
+  opacity: 0.3;
+}
+
+.postingSummary {
+  background-color: white;
+}
+
+.postContent {
+  padding: 16px 21px 31px 21px;
+}
+
+.postContent .postingList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 390px;
+  margin: auto;
+}
+
+.postingList li {
+  text-align: center;
+  cursor: pointer;
+}

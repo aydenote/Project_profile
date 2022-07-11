@@ -1,0 +1,4 @@
+.headerBar .headerBarInput::placeholder {
+  color: #c4c4c4;
+  padding: 0 10px;
+}

@@ -1,0 +1,22 @@
+.followBtn{
+    padding: 8px 40px;
+    vertical-align: top;
+    margin: 0 10px;
+    color: white;
+    border-radius: 30px;
+    background-color: var(--mainColor);
+}
+
+.link .messageBtn{
+    border: 1px solid var(--borderColor);
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.albumBar .albumType.detail {
+    opacity: 1;
+}
+
+.albumBar .albumType.list{
+    opacity: 0.3;
+}
