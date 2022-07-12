@@ -8,7 +8,7 @@ header h1 {
   font-size: 24px;
 }
 
-main .logInForm.registerForm{
+main .logInForm.registerForm {
   max-width: 322px;
   margin: auto;
   padding: 0;
@@ -53,7 +53,7 @@ article .registerByEmail {
   text-align: center;
 }
 
-.updateUserImg{
+.updateUserImg {
   display: block;
   margin: 30px auto;
   cursor: pointer;

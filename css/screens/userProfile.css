@@ -1,7 +1,10 @@
 body {
-  background-color: #f2f2f2;
   position: static;
   min-width: 400px;
+}
+
+.profileBackground {
+  background-color: #f2f2f2;
 }
 
 .headerBar {
@@ -15,7 +18,7 @@ body {
   cursor: pointer;
 }
 
-.myFollow.myProfileImg .myImage{
+.myFollow.myProfileImg .myImage {
   width: 110px;
   height: 110px;
 }
@@ -116,7 +119,7 @@ body {
   margin: 0 0 20px 20px;
 }
 
-.saleItems .productList li{
+.saleItems .productList li {
   cursor: pointer;
 }
 
@@ -152,7 +155,7 @@ body {
   gap: 18px;
 }
 
-.albumBar .albumType.detail{
+.albumBar .albumType.detail {
   opacity: 0.3;
 }
 
