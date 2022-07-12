@@ -1,6 +1,7 @@
 header .headerBar {
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   height: 48px;
   padding: 0 10px;
@@ -28,10 +29,14 @@ header .headerBar {
 .headerBar .headerBarSearch {
   width: calc(100% - 50px);
   height: 25px;
-  padding: 4px;
+  padding: 4px 10px;
   border-radius: 32px;
-  background-color: var(--textColor);
-  opacity: 0.2;
+  background-color: var(--borderColor);
+}
+
+.headerBar .headerBarInput::placeholder {
+  color: var(--textColor);
+  opacity: 0.4;
 }
 
 /* headerBar 모달 버튼 / 저장, 업로드 버튼 */

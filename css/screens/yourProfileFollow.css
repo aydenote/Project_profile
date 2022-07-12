@@ -5,25 +5,18 @@
   margin-left: 13px;
 }
 
-header .headerBar.followers {
-  position: fixed;
-  width: 100%;
-  height: 48px;
-  padding: 0 10px;
-  box-sizing: border-box;
-  background-color: white;
-  border-bottom: 1px solid var(--borderColor);
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.followBtn.profile {
+.profile .followBtn {
   width: 56px;
   height: 28px;
   border-radius: 26px;
   font-weight: 400;
   font-size: 12px;
+}
+
+.userList .profile.followBtn.cancel {
+  background-color: white;
+  border: 1px solid var(--borderColor);
+  color: var(--textColor);
 }
 
 .userBox .userInfo {
