@@ -10,6 +10,7 @@ header .headerBar {
   border-bottom: 1px solid var(--borderColor);
   display: flex;
   align-items: center;
+  z-index: 100;
 }
 
 /* 뒤로 가기 */
